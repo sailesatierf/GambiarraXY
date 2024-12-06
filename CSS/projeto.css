@@ -7,16 +7,20 @@
 .menu{
     display: flex;
     padding: 0 8%;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration-color: black;
 }
 
 .titulo{
     color: #541e61;
-    font-size: 35px;
+    font-size: 65px;
     text-align: center;
     position: relative;
-    margin-top: 14px;
+    margin-top: 54px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.titulo::before{
+.titulo:before{
     content: '';
     width: 40px;
     height: 40px;
@@ -26,7 +30,7 @@
     top: 0;
     left: 55px;
 }
-.titulo::after{
+.titulo:after{
     content: '';
     width: 12px;
     height: 12px;
@@ -52,13 +56,76 @@ nav ul li a:hover{
     border-bottom: 3px solid #541e61;
 }
 .boasvindas{
+    text-align: center;
     font-size: 55px;
     color: #3f1549;
-    margin-top: 50px;
-    margin-left: 10px;
+    margin-top: 80px;
+    margin-left: 0px;
 }
-p{
+
+
+.conteudoparagrafos{
     color: #3f1549;
     margin-left: 10px;
     margin-top: 40px;
+    font-size: 21px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 100px;
+    margin-right: 120px;
+    text-align: justify;
+}
+
+video{
+    margin-left: 450px;
+}
+
+.h1video{
+    margin-left: 100px;
+    margin-right: 120px;
+    font-size: 55px;
+    color: #3f1549;
+    margin-top: 50px;
+}
+.h1nucleo{
+    margin-left: 100px;
+    margin-right: 120px;
+    font-size: 55px;
+    color: #3f1549;
+    margin-top: 50px;
+}
+.h1imagem{
+    margin-left: 100px;
+    margin-right: 120px;
+    font-size: 55px;
+    color: #3f1549;
+    margin-top: 50px;
+}
+
+.fotoimagem{
+    margin-left: 480px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.rodapé{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-decoration-color: black;
+}
+
+.h1fotostexto{
+    color: #3f1549;
+    margin-left: 10px;
+    margin-top: 40px;
+    font-size: 21px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.h1cancer{
+    margin-left: 100px;
+    margin-right: 120px;
+    font-size: 55px;
+    color: #3f1549;
+    margin-top: 50px;
 }
