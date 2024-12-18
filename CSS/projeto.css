@@ -107,6 +107,12 @@ video{
     margin-bottom: 50px;
 }
 
+.fotoimagemnucleo{
+    margin-left:380px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
 .rodapé{
     font-size: 20px;
     text-align: center;
@@ -123,6 +129,17 @@ video{
     text-align: center;
 }
 .h1cancer{
+    margin-left: 100px;
+    margin-right: 120px;
+    font-size: 55px;
+    color: #3f1549;
+    margin-top: 50px;
+}
+.legenda{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.h1cromossomo{
     margin-left: 100px;
     margin-right: 120px;
     font-size: 55px;
