@@ -1,0 +1,282 @@
+*{
+    background-color: rgba(255, 226, 189, 0.945);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    display: flex;
+    padding: 0 8%;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration-color: black;
+}
+
+.titulo{
+    color: #541e61;
+    font-size: 65px;
+    text-align: center;
+    position: relative;
+    margin-top: 54px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.titulo:before{
+    content: '';
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #541e61;
+    top: 0;
+    left: 55px;
+}
+.titulo:after{
+    content: '';
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #c594d1;
+    top: 0;
+    left:70px;
+    top: 14px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #3f1549;
+    transition: 0.5;
+}
+nav ul li a:hover{
+    border-bottom: 3px solid #541e61;
+}
+.boasvindas{
+    text-align: center;
+    font-size: 55px;
+    color: #3f1549;
+    margin-top: 80px;
+    margin-left: 0px;
+}
+
+
+.conteudoparagrafos{
+    color: #3f1549;
+    margin-left: 10px;
+    margin-top: 40px;
+    font-size: 21px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 100px;
+    margin-right: 120px;
+    text-align: justify;
+}
+
+video{
+    margin-left: 450px;
+}
+
+.h1video{
+    margin-left: 100px;
+    margin-right: 120px;
+    font-size: 55px;
+    color: #3f1549;
+    margin-top: 50px;
+}
+.h1nucleo{
+    margin-left: 100px;
+    margin-right: 120px;
+    font-size: 55px;
+    color: #3f1549;
+    margin-top: 50px;
+}
+.h1imagem{
+    margin-left: 100px;
+    margin-right: 120px;
+    font-size: 55px;
+    color: #3f1549;
+    margin-top: 50px;
+}
+
+.fotoimagem{
+    margin-left: 480px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.fotoimagemnucleo{
+    margin-left:380px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.rodapé{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-decoration-color: black;
+}
+
+.h1fotostexto{
+    color: #3f1549;
+    margin-left: 10px;
+    margin-top: 40px;
+    font-size: 21px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.h1cancer{
+    margin-left: 100px;
+    margin-right: 120px;
+    font-size: 55px;
+    color: #3f1549;
+    margin-top: 50px;
+}
+.legenda{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.h1cromossomo{
+    margin-left: 100px;
+    margin-right: 120px;
+    font-size: 55px;
+    color: #3f1549;
+    margin-top: 50px;
+}
+
+/* Responsividade para telas menores */
+/* Responsividade para telas menores */
+@media (max-width: 1024px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        font-size: 28px;
+    }
+
+    nav ul li {
+        margin-right: 15px;
+        margin-top: 10px;
+    }
+
+    .conteudoparagrafos {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 28px;
+    }
+
+    .h1video, .h1nucleo, .h1cancer, .h1imagem, .h1cromossomo {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 45px;
+    }
+
+    video {
+        display: block;
+        margin: 20px auto;
+        width: 90%;
+        height: auto;
+    }
+
+    .fotoimagem, .fotoimagemnucleo {
+        display: block;
+        margin: 20px auto;
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 50px;
+        margin-top: 30px;
+    }
+
+    .boasvindas {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .conteudoparagrafos {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 26px;
+    }
+
+    .h1video, .h1nucleo, .h1cancer, .h1imagem, .h1cromossomo {
+        font-size: 35px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    video {
+        display: block;
+        margin: 20px auto;
+        width: 85%;
+        height: auto;
+    }
+
+    .fotoimagem, .fotoimagemnucleo {
+        display: block;
+        margin: 20px auto;
+        width: 85%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu {
+        font-size: 32px;
+    }
+
+    .titulo {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+
+    .boasvindas {
+        font-size: 38px;
+        margin-top: 30px;
+    }
+
+    .conteudoparagrafos {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 24px;
+    }
+
+    .h1video, .h1nucleo, .h1cancer, .h1imagem, .h1cromossomo {
+        font-size: 35px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    video {
+        display: block;
+        margin: 20px auto;
+        width: 80%;
+        height: auto;
+    }
+
+    .fotoimagem, .fotoimagemnucleo {
+        display: block;
+        margin: 20px auto;
+        width: 80%;
+        height: auto;
+    }
+
+    .rodapé {
+        font-size: 14px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
