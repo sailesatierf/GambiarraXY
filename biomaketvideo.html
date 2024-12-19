@@ -6,52 +6,85 @@
     <title>Biomaket</title>
     <link rel="stylesheet" href="projeto.css">
     <link rel="icon" href="imagem2.png" type="image/x-icon">
+    <style>
+        /* Estilo do vídeo para responsividade */
+        .video {
+            width: 90%; /* Ocupa 90% da largura do contêiner */
+            max-width: 500px; /* Largura máxima do vídeo */
+            height: auto; /* Ajusta proporcionalmente */
+            display: block; /* Garante comportamento de bloco */
+            margin: 20px auto; /* Centraliza horizontalmente */
+        }
+
+        /* Estilo das imagens para responsividade */
+        .fotoimagem {
+            width: 90%; /* Ocupa 90% da largura do contêiner */
+            max-width: 400px; /* Largura máxima da imagem */
+            height: auto; /* Ajusta proporcionalmente */
+            display: block; /* Garante comportamento de bloco */
+            margin: 10px auto; /* Centraliza horizontalmente */
+        }
+
+        /* Texto para evitar que chegue às bordas */
+        .conteudoparagrafos,
+        .h1video,
+        .h1imagem,
+        .rodapé {
+            margin: 0 5%; /* Adiciona margem nas laterais */
+            text-align: center; /* Centraliza o texto */
+        }
+
+        /* Ajustes adicionais para dispositivos pequenos */
+        @media (max-width: 768px) {
+            .video {
+                width: 100%; /* Ocupa toda a largura disponível */
+            }
+            .fotoimagem {
+                width: 100%; /* Ocupa toda a largura disponível */
+            }
+        }
+    </style>
 </head>
 <body>
     <h1 class="titulo">Gambiarra XY</h1>
     
     <div class="menu">
-    
-    <nav>
-        <ul><li><a href="projeto.html">Início</a></li>
-            <li><a href="equipe.html">Equipe</a></li>
-            <li><a href="biomaketvideo.html">Biomaket</a></li>
-            <li><a href="conteudo.html">Conteúdos</a></li>
-        </ul>
-    </nav>
-    
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="equipe.html">Equipe</a></li>
+                <li><a href="biomaketvideo.html">Biomaket</a></li>
+                <li><a href="conteudo.html">Conteúdos</a></li>
+            </ul>
+        </nav>
     </div>
 
-    <p class="conteudoparagrafos">A <strong>Biomaket</strong> é a parte física do projeto, representada por uma maquete detalhada 
+    <p class="conteudoparagrafos">
+        A <strong>Biomaket</strong> é a parte física do projeto, representada por uma maquete detalhada 
         e informativa. Ela inclui um modelo de um núcleo celular, uma representação impressa de uma célula 
         cancerígena e um cromossomo. 
-        Essa abordagem permite uma visualização prática e educativa dos temas abordados.</p>
-    
-        <br><br>
-        <h1 class="h1video">BIOMAKET - Explicando sobre!</h1>
-        <video controls 
-            width="500"; 
-            height="400";
-            class="video">
-            <source src="videobiomaket.mp4" type="video/mp4">
-            Seu navegador não suporta vídeos.
-        </video>
-    
+        Essa abordagem permite uma visualização prática e educativa dos temas abordados.
+    </p>
+
+    <br><br>
+    <h1 class="h1video">BIOMAKET - Explicando sobre!</h1>
+    <video controls autoplay muted playsinline class="video">
+        <source src="videobiomaket.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos.
+    </video>
+
     <br><br>
     <h1 class="h1imagem">Fotos da Biomaket</h1>
-<img src="nucleofoto2.jpeg" alt="Descrição da imagem" width="400" height="300" class="fotoimagem">
-<br>
-
-    <img src="cromossomofoto2.jpeg" alt="Descrição da imagem" width="400" height="300" class="fotoimagem">
+    <img src="nucleofoto2.jpeg" alt="Descrição da imagem" class="fotoimagem">
     <br>
-    <img src="dnafoto1.jpeg" alt="Descrição da imagem" width="400" height="300" class="fotoimagem">
+    <img src="cromossomofoto2.jpeg" alt="Descrição da imagem" class="fotoimagem">
     <br>
-    <img src="cancerfoto2.jpeg" alt="Descrição da imagem" width="400" height="300" class="fotoimagem">
+    <img src="dnafoto1.jpeg" alt="Descrição da imagem" class="fotoimagem">
     <br>
-<br><br><br>
-<p class="rodapé">Copyright © 2024 Gambiarra XY. Todos os direitos reservados.
-</p>
+    <img src="cancerfoto2.jpeg" alt="Descrição da imagem" class="fotoimagem">
+    <br>
+    <br><br><br>
+    <p class="rodapé">Copyright © 2024 Gambiarra XY. Todos os direitos reservados.</p>
     <br><br>
-    
 </body>
 </html>
