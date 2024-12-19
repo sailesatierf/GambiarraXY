@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biomaket</title>
+    <link rel="stylesheet" href="projeto.css">
+    <link rel="icon" href="imagem2.png" type="image/x-icon">
+    <style>
+        .foto-container {
+            display: flex;
+            flex-direction: column; /* Coloca as imagens em uma coluna */
+            align-items: center; /* Centraliza as imagens horizontalmente */
+            gap: 20px; /* Espaçamento vertical entre as imagens */
+            margin-top: 20px;
+        }
+    
+        .foto-container div {
+            text-align: center; /* Centraliza o texto da legenda */
+        }
+    
+        .foto-container img {
+            width: 150px; /* Tamanho ajustado da largura */
+            height: 150px; /* Tamanho ajustado da altura */
+            border-radius: 50%; /* Arredonda as imagens */
+            object-fit: cover; /* Mantém o conteúdo ajustado ao tamanho */
+        }
+    
+        .conteudoparagrafos, .legenda {
+            color: #3f1549;
+            font-size: 24px; /* Ajuste do tamanho da fonte */
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center; /* Centraliza os textos */
+            max-width: 800px; /* Limita a largura máxima */
+            margin: 0 auto; /* Centraliza os textos horizontalmente */
+            padding: 0 20px; /* Espaço interno nas laterais */
+        }
+    
+        .legenda {
+            margin-top: 10px;
+        }
+    
+        .rodapé {
+            font-size: 15px;
+            text-align: center;
+            margin: 20px auto;
+            max-width: 800px;
+            padding: 0 20px;
+        }
+    
+        /* Responsividade para telas menores */
+        @media (max-width: 768px) {
+            .foto-container img {
+                width: 120px; /* Reduz o tamanho para telas menores */
+                height: 120px;
+            }
+    
+            .conteudoparagrafos, .rodapé, .legenda {
+                max-width: 90%; /* Ajusta a largura para telas menores */
+                padding: 0 10px;
+            }
+        }
+    
+        @media (max-width: 480px) {
+            .foto-container img {
+                width: 100px; /* Reduz ainda mais o tamanho para telas pequenas */
+                height: 100px;
+            }
+    
+            .conteudoparagrafos, .rodapé, .legenda {
+                max-width: 95%; /* Mais próximo das bordas */
+                padding: 0 5px;
+            }
+        }
+    </style>
+    
+    
+    
+</head>
+<body>
+    <h1 class="titulo">Gambiarra XY</h1>
+    
+    <div class="menu">
+        <nav>
+            <ul>
+                <li><a href="projeto.html">Início</a></li>
+                <li><a href="equipe.html">Equipe</a></li>
+                <li><a href="biomaketvideo.html">Biomaket</a></li>
+                <li><a href="conteudo.html">Conteúdos</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <p class="conteudoparagrafos">A equipe é formada por quatro estudantes do 3º ano de Informática Vespertino 
+        do <strong>IFRN Campus Parnamirim</strong>, que uniram suas habilidades e ideias para criar o projeto 
+        <strong>Gambiarra XY</strong>. 
+        Com foco no aprendizado, criatividade e trabalho em grupo, os integrantes buscaram explorar conceitos 
+        complexos da biologia de 
+        forma acessível e visualmente impactante.</p>
+    
+    <h2 class="h1fotostexto">Fotos da Equipe:</h2>
+    
+    <div class="foto-container">
+        <div>
+            <img src="eliasfoto.jpeg" alt="Foto 1">
+            <p class="legenda">@EliasgFreitas
+            </p>
+        </div>
+        <div>
+            <img src="manelfoto.jpeg" alt="Foto 2">
+            <p class="legenda">Emanuel Felipe 17 anos, gosta de pedalar, jogar bola, tocar violão e lutar jiu-jitsu, 
+                gosta também de galeguinha baixinha que gosta de biologia, e da aula de biologia</p>
+        </div>
+        <div>
+            <img src="isaiasfoto.jpeg" alt="Foto 3">
+            <p class="legenda">@isaiastheone</p>
+        </div>
+        <div>
+            <img src="daniel foto.jpeg" alt="Foto 4">
+            <p class="legenda">Daniel Uchôa (foto desatualizada)</p>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    
+    <p class="rodapé">Copyright © 2024 Gambiarra XY. Todos os direitos reservados.</p>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biomaket</title>
+    <link rel="stylesheet" href="projeto.css">
+    <link rel="icon" href="imagem2.png" type="image/x-icon">
+    <style>
+        .foto-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* 2 colunas iguais */
+            gap: 20px; /* Espaço entre as fotos */
+            justify-items: center; /* Centraliza as imagens horizontalmente */
+            margin-top: 20px;
+        }
+        .foto-container div {
+            text-align: center; /* Centraliza as legendas */
+        }
+        .foto-container img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; /* Arredonda a imagem */
+            object-fit: cover; /* Ajusta a imagem ao tamanho definido */
+        }
+        .foto-container .legenda {
+            margin-top: 10px;
+            font-size: 14px;
+            width: 150px;
+            text-align: center; /* Centraliza a legenda */
+        }
+    </style>
+</head>
+<body>
+    <h1 class="titulo">Gambiarra XY</h1>
+    
+    <div class="menu">
+        <nav>
+            <ul>
+                <li><a href="projeto.html">Início</a></li>
+                <li><a href="equipe.html">Equipe</a></li>
+                <li><a href="biomaketvideo.html">Biomaket</a></li>
+                <li><a href="conteudo.html">Conteúdos</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <p class="conteudoparagrafos">Foto de cada integrante com nome, e redes sociais.</p>
+    
+    <h2 class="h1fotostexto">Fotos da Equipe:</h2>
+    
+    <div class="foto-container">
+        <div>
+            <img src="isaiasfoto.jpeg" alt="Foto 1">
+            <p class="legenda">Legenda extrovertida e introvertida ao mesmo tempo.
+                @EliasgFreitas
+            </p>
+        </div>
+        <div>
+            <img src="manelfoto.jpeg" alt="Foto 2">
+            <p class="legenda">Emanuel Felipe 17 anos, gosta de pedalar, jogar bola, tocar violão e lutar jiu-jitsu, 
+                gosta também de galeguinha baixinha que gosta de biologia, e da aula de biologia</p>
+        </div>
+        <div>
+            <img src="isaiasfoto.jpeg" alt="Foto 3">
+            <p class="legenda">@isaiastheone</p>
+        </div>
+        <div>
+            <img src="isaiasfoto.jpeg" alt="Foto 4">
+            <p class="legenda">daniel</p>
+        </div>
+    </div>
+    
+    <p class="rodapé">Copyright</p>
+</body>
+</html>
